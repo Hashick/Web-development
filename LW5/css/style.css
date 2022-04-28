@@ -1,0 +1,268 @@
+body
+{
+    margin: 0;
+}
+
+
+
+.header__container{
+    max-width: 1680px;
+    margin: auto;
+    display: flex;
+}
+
+
+.logo-text{
+    width: 203px;
+    height: 37.69px;
+    margin-top: 6px;
+    left: 0px;
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.8354px;
+    line-height: 122.33%;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+
+
+.header__buttons{
+    padding-right: 87px;
+    padding-top: 18px;
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.header__buttons__wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header__button-buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 247px;
+    height: 55px;
+    margin-left: 12px;
+    border-radius: 4.59px;
+    background-color: black;
+    color: white;
+}
+
+.button__buy-text{
+    position: static;
+    width: 167px;
+    height: 17px;
+    left: calc(50% - 167px/2);
+    top: calc(50% - 17px/2);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.body__button-buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 332px;
+    height: 55px;
+    border-radius: 4.59px;
+    background-color: black;
+    color: white;
+}
+
+.text-marker{
+    color: deeppink;
+}
+
+
+.slogon{
+    width: 745px;
+    height: 138.31px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 122.35%;
+
+}
+
+.minor-slogon{
+    width: 545px;
+    height: 62px;
+    margin-top: 3.43px;
+    padding-bottom: 47.43px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 120%;
+}
+
+.slogon__text{
+    padding-top: 113px;
+    padding-left: 21px;
+}
+
+.img-logo{
+    width: 849px;
+    height: 849px;
+    padding-top: 29.35px;
+    padding-left: 30.43px;
+}
+
+.line{
+    background-color: #000000;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-top: 111px;
+    padding-bottom: 142px;
+    display: flex;
+    justify-content: center;
+}
+
+.line-block{
+    margin-left: 20px;
+}
+
+
+.img-middle-time{
+    width: 60px;
+    height: 60px;
+    padding-left: 121px; 
+}
+
+.img-middle-book{
+    width: 60px;
+    height: 60px;
+    padding-left: 137.95px;    
+}
+
+.img-middle-target{
+    width: 60px;
+    height: 60px;
+    padding-left: 137.05px;  
+}
+
+.middle-text-time{
+    width: 303px;
+    height: 52px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.middle-text-book{
+    width: 337px;
+    height: 52px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;   
+    
+}
+
+.middle-text-target{
+    width: 336.95px;
+    height: 52px;
+    margin-top: 20px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+
+
+.body__head{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 126.06%;    
+    
+}
+
+
+.body__text{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;      
+}
+
+.body__blocks{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+body__blocks-head{
+    font-family: 'Roboto Condensed';
+    font-style: normal;    
+}
+
+
+.body__blocks-point{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    
+    width: 358px;
+    height: 190px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 7.35723px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 30px;
+    
+    background-color: black;
+    margin: 0px 30px;
+}
+
+
+
