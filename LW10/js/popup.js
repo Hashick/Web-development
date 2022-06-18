@@ -39,35 +39,6 @@ function main() {
 
     function createPopup() {
         popUp.classList.add('popUp');
-        popUp.innerHTML =
-        `<div class="form-wrap">
-            <div class="form-crossbar">
-                <img src="images/form-exit.png" alt="exit" class="form-crossbar__image"/>
-            </div>
-            <img class="image-welcome" src="images/welcome.png" alt="welcome">
-            <h2 class="form-text">Записаться на курс</h2>
-            <form class="form-section" action="register.php" method="POST">
-                <label>
-                    <input class="input-wrap" type="text" name="name" placeholder="Ваше имя"/>
-                </label>
-                <label>
-                    <input class="input-wrap" type="text" name="email" placeholder="Email"/>
-                </label>
-                    <select name="%activity%" class="input-wrap">
-                        <option selected disabled>Деятельность</option>
-                        <option value="programmer">Программист</option>
-                        <option value="designer">Дизайнер</option>
-                        <option value="marketer">Маркетолог</option>
-                    </select>
-                <div class="checkbox-block-wrap">
-                    <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter" class="subscribe-block">
-                    <label for="subscribeNews" class="checkbox-text">Согласен получать информационные материалы о старте курса</label>
-                </div>
-                <p>
-                    <input type="submit" class="submit-block" value="Записаться на курс"/>
-                </p>
-            </form>
-        </div>`;
         return popUp
     }
 
