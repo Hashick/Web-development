@@ -1,5 +1,5 @@
 ﻿<?php
-
+    header("Content-Type: text/html");
     $filename = "data/" . $_POST["email"] . ".txt";
     $fp = fopen($filename, 'w+');
     $fields_to_post = ["Email", "Имя"];
